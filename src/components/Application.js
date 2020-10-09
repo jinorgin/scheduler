@@ -113,6 +113,10 @@ export default function Application(props) {
       alt="Lighthouse Labs"
     />
           </section>
+
+          { /*
+          I removed <Appointment /> on the section. So the application does not crash.
+          */ }
           <section className="schedule">
           </section>
         </main>

@@ -27,6 +27,8 @@ export default function Appointment(props){
 
     return (
         <article className="appointment">
+         { /*This here does not work for some reason.*/ }
+          {appointments}   
             <Show />
         </article> 
 
