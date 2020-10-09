@@ -115,7 +115,7 @@ export default function Application(props) {
           </section>
 
           { /*
-          I removed <Appointment /> on the section. So the application does not crash.
+          I removed <Appointment /> on the schedule section. So the application does not crash.
           */ }
           <section className="schedule">
           </section>
